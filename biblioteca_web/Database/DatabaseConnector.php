@@ -18,7 +18,7 @@ class DatabaseConnector
         $this->password = $password;
     }
 
-    public function getConnecction()
+    public function getConnection()
     {
         $stringPDO = $this->type.":host=".$this->ip.";dbname=".$this->db_name;
 
